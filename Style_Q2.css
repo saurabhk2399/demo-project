@@ -1,0 +1,74 @@
+.Examplediv1{
+
+    border-width: 2px; 
+    border-style: solid;
+    /* Please refer below code for margin */
+    margin-top: 20px;
+    /* Please refer below code for padding */   
+    padding-left: 40px;
+
+
+     /* Please refer below code for border color */
+     border-top-color: blue;
+
+
+    /* Please see the below code which used shorthand property */
+    /* border: 5px solid ; color: blue; */
+    text-align: center;
+
+
+    text-transform: capitalize;
+
+    text-indent: 30px;
+
+    /* Please see below code for letter spacing */
+    /* letter-spacing: 55px; */
+
+
+    line-height: 50px;
+
+    /* Please see below code for word spacing */
+    /* word-spacing: 32px; */
+
+}
+
+.Examplediv2{
+
+    border-top-width: 2px; 
+    border-top-style: solid;
+    /* Please refer below code for margin */
+    margin-left: 40px;
+    /* Please refer below code for padding */
+    padding-left: 40px;
+
+    /* Please refer below code for border color */
+    border-top-color: blue
+     
+    /* Please see the below code which used shorthand property */
+     /* border-top: 5px solid ; color: blue;  */
+}
+
+.Examplediv3{
+
+    border-left-width: 2px; 
+    border-left-style: solid;
+    
+     /* Please refer below code for margin */
+    margin-top: 40px;
+
+     /* Please refer below code for padding */
+    padding-bottom: 40px;
+    /* Please see the below code which used shorthand property */
+    /* border-left: 5px solid ; border-color: red;  */
+}
+
+.Examplediv4{
+
+    border-bottom-width: 2px; 
+    border-bottom-style: solid;
+
+    /* Please refer below code for padding */
+    padding-bottom: 40px;
+    /* Please see the below code which used shorthand property */
+    /* border-bottom: 5px solid ; border-color: red;  */
+}

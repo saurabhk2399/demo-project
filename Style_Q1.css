@@ -1,0 +1,17 @@
+body {
+  
+   
+    background-image: url("Click_logo.jpg");
+    background-color: blue;
+    height: 1200px;
+    background-repeat: repeat-x;
+    background-attachment: fixed;  /*we need to remove if we don't want fixed image at scrolling part"/
+
+    /* Please see the below example of shorthand property */
+
+    /*background : red; height 1400px; background-image: url("Click_logo.jpg"); background-repeat: repeat-x; background-attachment: fixed;*/
+/*background : red; height 1400px; background-image: url("Click_logo.jpg"); background-repeat: repeat-Y;*/
+
+ }
+
+
