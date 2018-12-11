@@ -1,0 +1,80 @@
+.paragraph1{
+
+
+font-style: italic;
+font-family: 'Trebuchet MS'
+font-size: 50px;
+/* For Google font- we will use below code */
+/*font-family: 'Roboto', sans-serif */
+
+
+}
+
+.unorderlist1{
+    
+    list-style-type: disc;
+}
+
+.tablestyle{
+
+    background-color: blue;
+    /* border: 2px; color: black; */
+    border : 20px; color: black
+    
+
+}
+
+.Divclass{
+
+    margin: 20px;
+    padding: 20px;
+    height: 50px;
+    width: 80px;
+}
+
+.spanclass{
+
+    height: 50px;
+    width: 80px;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+.Divclas1{
+
+    float: left;
+
+}
+
+.Divclas2{
+
+   display: none;
+
+}
+
+.Divclas3{
+
+    padding-top: 50px;
+    padding-left: 50px;
+    position: relative;
+ 
+ }
+
+ .Divclas4{
+
+    padding-top: 50px;
+    padding-left: 50px;
+    position: absolute;
+ 
+ }
+
+ .Divclas5{
+
+    padding-top: 50px;
+    padding-left: 50px;
+    position:fixed;
+    width: 100px
+ 
+ }
