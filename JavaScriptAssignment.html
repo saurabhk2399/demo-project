@@ -1,0 +1,168 @@
+<!Doctype HTML>
+<html>
+    <head>
+<!-- Question-1 -->
+            	<!-- What is javascript ? Why need of Javascript.
+Answer- JavaScript is a programming language that adds interactivity to your website (for example games, responses
+when buttons are pressed or data is entered in forms, dynamic styling, animation).
+	How many ways we can add javascript , create program.
+    Answer- You can place any number of scripts in an HTML document. -->
+
+<!-- Question-2.	How many ways we can add javascript , create program.- Answer()-There are too many ways to add a java script file like- In Head section, body section and via external js file. -->
+
+
+            <div>This is a JAVA SCRIPT Page</div>
+
+              <!-- Below is an example, where we can see the calling of external java script -->
+            <!-- <link href="JavascriptAssignment.html_1.js" rel="script"> -->
+
+            <!-- below is an example, where we can use java script code for insertion purpose. in head section -->
+            <script>
+
+
+// Question-3
+// Write code for example for innerHTML and innerText , document.write. What is difference between innerHTML and innerText.
+
+// Answer- innerHTML lets you work with HTML rich text and doesn't automatically encode and decode text. In other words, innerText retrieves and sets the content of the tag as plain text, whereas innerHTML retrieves and sets the same content but in HTML format
+                    function myFunction() {
+                    document.getElementById("demo").innerHTML = "<b>This is insertion of first paragraph</b>";
+                    }
+
+
+                    function myFunction2() {
+                    document.getElementById("demo2").innerText = "<b>This is insertion of first paragraph</b>";
+                    }
+
+
+
+            </script>
+
+          
+            
+            <p id="demo">A Paragraph</p>
+            <button type="button" onclick="myFunction()">Try it</button>
+
+            <p id="demo2">A Paragraph</p>
+            <button type="button" onclick="myFunction2()">Try it</button>
+
+
+           <!-- Question- 4.	How many ways we can add comment in javascript  - -->
+            <!-- Answer- there are two ways one is single line coment //..code here and another is multiple line coment
+                 "/* 
+                 code here
+                 code here
+                 code here
+                 
+                 */" -->
+
+
+        <!-- Question 5.	How many way we can create variables in javascript , give name convention for javascript variable. 
+
+                Answer- JavaScript uses reserved keyword var to declare a variable. A variable must have a unique name. 
+                You can assign a value to a variable using equal to (=) operator when you declare it or before using it
+                var <variable-name> = <value>;
+        -->
+            
+
+        <!-- Question 6.	What is hoisting in javascript ? What is advantages and disadvantages for hoisting. 
+            How we can avoid that 
+            Answer- In JavaScript, a variable can be declared after it has been used.
+
+            In other words; a variable can be used before it has been declared.
+            Advantage- with the helping of hosting property, we can define varible accoridng to our use.
+            disadvantage- Sometime according the to global recognization, it will impact on local declaration of the values.
+
+
+
+        -->
+
+
+        <!--Question 7 How many Datatypes in javascript give examples 
+        Answer- There are four type of data types in the java 
+            string
+            number
+            boolean
+            undefined
+        example- Var x= "This is a string"; - example of string
+                    Var x= 23; - example of number
+                    Var x= true; - example of boolean
+                    var x; - example of undefined -->
+
+
+
+        <!-- Question 8 What is difference between
+                    isFinite() and isInteger 
+                  Answer  
+                    isFinite- The isFinite() function determines whether a number is a finite, legal number.
+                    isInteger- This method returns true if the value is of the type Number, and an integer (a number without decimals). Otherwise it returns false.
+        -->
+
+
+
+        <!-- Question -9 .Give example for toFixed and toPrecision
+        Answer
+        toFixed
+            Var x=23.5678;
+            var n = x.toFixed(2);// output will be- 23.57
+        toPrecision
+            Var x=23.5678;
+            var n = x.toPrecision(2);// output will be- 23 -->
+
+
+
+
+
+           <!-- Question 10.  What is number data type and how many types it can hold. 
+            Answer
+            JavaScript has only one type of numbers.
+
+            Numbers can be written with, or without decimals: -->
+            
+            <!-- 
+            Question- 11 -What is string give examples for String type.
+            Answer
+                A JavaScript string stores a series of characters like "Apple juice".
+                A string can be any text inside double or single quotes: "ABC134"
+                Var x=xpz; -->
+           
+            <!-- Question 12.  Get 2nd  ‘A’ character from “I am from Angular Avengers” using charAt 
+            
+            var str = "Angular Avengers";
+            var res = str.charAt(8)// output will be A -->
+
+
+            <!-- 13.  Get ascii code for  ‘A’ character from “I am from Angular Avengers”.
+
+            var str = "Angular Avengers";
+            var res = str.charCodeAt(8)//output will be 65 -->
+                
+
+
+
+
+
+    </head>
+    <body>
+        
+            <!-- below is an example, where we can use java script code for insertion purpose in body section.  -->
+            <script>
+                    function myFunction() {
+                    document.getElementById("demo").innerHTML = "This is insertion of first paragraph";
+                    }
+                    
+            </script>
+
+
+
+        
+
+    </body>
+
+
+
+
+
+
+
+
+</html>

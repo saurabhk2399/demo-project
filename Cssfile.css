@@ -1,0 +1,23 @@
+.Before_PC::after
+{
+    content: url(Testing.jpg);
+}
+
+.After_PC::before
+{
+    content: url(Testing.jpg);
+}
+
+.FirstLine_PC::first-letter
+{
+    color:blue;
+
+}
+
+
+
+
+.Opacity1
+{
+    opacity: 0.9;
+}
