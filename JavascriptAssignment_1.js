@@ -109,6 +109,15 @@ function FunExp2(){
     x += 5;
     document.getElementById("demo13").innerHTML = x;
 }
-var x = 10;
-x += 5;
-document.getElementById("demo14").innerHTML = x;
+
+function FunExp3(){
+    var x = 10;
+    x =- 5;
+    document.getElementById("demo14").innerHTML = x;
+}
+
+function FunExp4(){
+    var x = 10;
+    x /= 5;
+    document.getElementById("demo15").innerHTML = x;
+}
