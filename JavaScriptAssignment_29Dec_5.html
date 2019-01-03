@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> assignment 5 </title>
+</head>
+
+<body>
+
+        <p id="demo"></p>
+    <script>
+        var person1 = {
+           
+            firstName: "Saurabh",
+            lastName: "Singh"
+            id: 50,
+        }
+        var person2 = {
+            
+            firstName: "Krishna",
+            lastName: "singh"
+            id: 44,
+        }
+        var personArray = [person1, person2];
+        personArray.map(myfunction);
+        function myfunction(value, index, array) {
+            console.log(value.id);
+
+             document.getElementById("demo").innerHTML = value.id;
+        }
+    </script>
+</body>
+
+</html>

@@ -22,8 +22,8 @@ var person = {
   };
 
 
-//   WAY OF ARRAY CREATION- We can create array in below 3 ways.
-  var cars = ["apple", "banana", "XXX"];
+//   WAY OF ARRAY CREATION
+  var cars = ["bmw", "aUDI", "BMW"];
   var cars2 = [
     "Saab",
     "Volvo",
@@ -33,27 +33,6 @@ var person = {
   var car4 = "Saab";
 var car5 = "Volvo";
 var car6 = "BMW";
-
-
-
-
-
-var person = {
-    firstName: "John",
-    lastName : "Doe",
-    basicsalary     : 4000,
-    totalsal : function() {
-      return this.basicsalary + 4000*12/100 + 4000*2/100;
-    }
-  };
-
-
-
-
-
-
-
-
 
 
 // var objEmp2 = {
